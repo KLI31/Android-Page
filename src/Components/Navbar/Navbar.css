@@ -1,0 +1,108 @@
+:root {
+  --principal-color: #3ddc84;
+  --blackGreen: #073042;
+  --primaryColor: #78C257;
+  --navbarColor: #afe78a;
+  --secundaryColor: #aef18f;
+  --textColor: #a3a3a3;
+  --greyColor: #f4f4f4;
+  --whiteColor: #f5f4fa;
+  --blackColor: #434344;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.8rem 1.5rem;
+  box-shadow: 0 5px 15px rgb(237, 237, 237);
+  z-index: 1000;
+}
+
+.containerLogo .logo {
+  width: 55px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    position: absolute;
+    background: var(--principal-color);
+    width: 80%;
+    top: -100rem;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 14px;
+    text-align: center;
+    padding: 2rem;
+    transition: 0.3s ease;
+    z-index: 2000;
+  }
+  .navbar .closeIcon {
+    position: absolute;
+    bottom: -15px;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    background: var(--principal-color);
+    color: var(--blackGreen);
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 35px;
+  }
+  .navbar .closeIcon:hover {
+    color: red;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu .listItem {
+    padding: 0.6rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .menu .listItem a {
+    font-size: 15px;
+  }
+  .menu .listItem:hover {
+    background: var(--blackGreen);
+    color: var(--whiteColor);
+    transition: 0.3s ease;
+  }
+  .menu .listItem:hover a {
+    background: var(--blackGreen);
+    color: var(--whiteColor);
+    transition: 0.6s ease;
+  }
+}
+.signUp {
+  gap: 2rem;
+}
+.signUp .text {
+  padding: 6px 10px;
+  background-color: var(--principal-color);
+  border-radius: 3px;
+  color: var(--blackColor);
+  cursor: pointer;
+  font-size: 14px;
+}
+.signUp .text:hover {
+  background: var(--blackGreen);
+  color: var(--whiteColor);
+}
+
+.toggleNavbarIcon {
+  background: none;
+  color: var(--blackGreen);
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.showNavbar {
+  top: 7rem;
+  transition: 0.5s ease;
+}/*# sourceMappingURL=Navbar.css.map */
