@@ -1,7 +1,7 @@
 :root {
     --principal-color: #3ddc84;
     --blackGreen: #073042;
-    --primaryColor: #78C257;
+    --primaryColor: #55e295;
     --navbarColor:  #afe78a;
     --secundaryColor: #aef18f;
     --textColor: #a3a3a3;
@@ -18,7 +18,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 0.8rem 1.5rem;
-    box-shadow: 0 5px 15px rgb(237, 237, 237);
+    box-shadow: 0 13px 17px rgb(237, 237, 237);
     z-index: 1000;
 }
 
@@ -30,7 +30,7 @@
 @media screen and (max-width:768px) {
     .navbar{
         position: absolute;
-        background: var(--principal-color);
+        background: var(--primaryColor);
         width: 80%;
         top: -100rem;
         right: 50%;
@@ -39,7 +39,7 @@
         border-radius: 14px;
         text-align: center;
         padding: 2rem;
-        transition: .3s ease;
+        transition: .5s ease-in;
         z-index: 2000;
     
 
