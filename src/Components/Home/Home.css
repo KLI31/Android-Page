@@ -1,1 +1,59 @@
-/*# sourceMappingURL=Home.css.map */
+:root {
+  --principal-color: #3ddc84;
+  --blackGreen: #073042;
+  --primaryColor: #78C257;
+  --navbarColor: #afe78a;
+  --secundaryColor: #aef18f;
+  --textColor: #a3a3a3;
+  --greyColor: #f4f4f4;
+  --whiteColor: #f5f4fa;
+  --blackColor: #434344;
+}
+
+.home {
+  padding-top: 8rem;
+}
+
+.secContainer {
+  text-align: center;
+  display: grid;
+  padding: 0 1.5rem;
+  gap: 2rem;
+}
+.secContainer .homeText .homeSpan {
+  font-size: 15px;
+  color: var(--textColor);
+  font-weight: 400;
+}
+.secContainer .homeText .homeTitle {
+  font-size: 30px;
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.secContainer .homeText .btns {
+  padding-top: 12px;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.secContainer .homeText .btns .btn {
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-size: 12px;
+}
+.secContainer .homeText .btns .btn:hover {
+  background: var(--blackGreen);
+  color: var(--whiteColor);
+}
+.secContainer .homeText .btns .btn:nth-child(1) {
+  background: var(--whiteColor);
+  color: var(--textColor);
+}
+.secContainer .homeText .btns .btn:nth-child(1):hover {
+  background: var(--principal-color);
+  color: var(--whiteColor);
+}
+.secContainer .homeImage {
+  margin: auto;
+}/*# sourceMappingURL=Home.css.map */
