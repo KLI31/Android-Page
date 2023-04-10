@@ -8,7 +8,9 @@
 }
 
 :root {
+  --principal-color: #3ddc84;
   --primaryColor: #78C257;
+  --blackGreen: #073042;
   --secundaryColor: #ebe8fc;
   --textColor: #a3a3a3;
   --greyColor: #f4f4f4;
@@ -48,16 +50,16 @@ p {
 }
 
 .primaryBtn {
-  background: var(--primaryColor);
-  padding: 10px 15px;
-  border-radius: 10px;
-  font-weight: 600;
+  background: var(--principal-color);
+  padding: 15px 15px;
+  border-radius: 15px;
+  font-weight: 700;
   color: var(--blackColor);
   font-size: 12px;
 }
 .primaryBtn:hover {
-  background: var(--secondaryColor);
-  color: var(--blackColor);
+  background: var(--blackGreen);
+  color: var(--whiteColor);
 }
 
 .container {
